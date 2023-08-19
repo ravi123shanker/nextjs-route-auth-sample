@@ -1,7 +1,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -102,6 +101,26 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.user{
+  background-color: azure;
+  padding: 20px;
+  margin-top: 20px;
+}
+.main a, .user a{
+  color: blue;
+}
+
+.links{
+  margin: 20px;
+}
+
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: blue;
 }
 
 .logo {
