@@ -1,10 +1,10 @@
 "use client"
 
-import React, { useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import Auth from "@/lib/auth";
 import { clearRedirect, getRedirect, setRedirect } from "@/utils/authUtils";
 
-export const AuthContext = React.createContext({
+export const AuthContext = createContext({
   auth: null,
   initializing: false,
   user: null,
