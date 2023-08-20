@@ -1,4 +1,3 @@
-"use client"
 import { UserStatus } from '@/components/UserStatus';
 import styles from '../page.module.css'
 import { PageLinks } from '@/components/AppLinks';
